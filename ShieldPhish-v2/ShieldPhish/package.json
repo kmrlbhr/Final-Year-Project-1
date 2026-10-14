@@ -1,0 +1,13 @@
+{
+  "name": "shieldphish",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phishing detection browser extension (final year project).",
+  "scripts": {
+    "test": "node --test",
+    "evaluate": "node evaluation/evaluate.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3"
+  }
+}

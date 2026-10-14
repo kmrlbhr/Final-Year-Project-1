@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShieldPhish</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">
+          <img src="logo.svg" alt="" width="36" height="36" />
+          <div>
+            <h1>ShieldPhish</h1>
+            <p>Web protection, active</p>
+          </div>
+        </div>
+        <span class="live-dot" aria-label="Protection active"></span>
+      </header>
+
+      <main>
+        <section class="risk-card">
+          <div class="risk-heading">
+            <span class="eyebrow">Current assessment</span>
+            <span id="result" class="status low">Checking...</span>
+          </div>
+          <div class="score-display">
+            <strong id="score">0</strong>
+            <span>/ 100 risk score</span>
+          </div>
+          <div class="score-track" aria-hidden="true"><span></span></div>
+          <p class="assessment-copy">ShieldPhish is checking this page for suspicious signals.</p>
+        </section>
+
+        <section class="page-card">
+          <div class="section-heading">
+            <span class="eyebrow">Scanned page</span>
+            <span class="scan-mark">URL</span>
+          </div>
+          <div id="url" class="url">-</div>
+        </section>
+
+        <section class="signals-card">
+          <div class="section-heading">
+            <span class="eyebrow">Detection signals</span>
+            <span class="scan-mark">LIVE SCAN</span>
+          </div>
+          <ul id="reasons" class="reasons"></ul>
+        </section>
+      </main>
+
+      <footer>ShieldPhish analyzes locally in your browser.</footer>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

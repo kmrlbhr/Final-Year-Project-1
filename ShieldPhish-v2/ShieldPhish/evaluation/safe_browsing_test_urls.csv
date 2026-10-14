@@ -1,0 +1,6 @@
+# Google's Safe Browsing test pages (https://testsafebrowsing.appspot.com/), labelled as threats.
+# Safe Browsing should flag all three; ShieldPhish's URL checks are not expected to.
+url,label,source,scheme_known
+https://testsafebrowsing.appspot.com/s/phishing.html,1,gsb-test,1
+https://testsafebrowsing.appspot.com/s/malware.html,1,gsb-test,1
+https://testsafebrowsing.appspot.com/s/unwanted.html,1,gsb-test,1

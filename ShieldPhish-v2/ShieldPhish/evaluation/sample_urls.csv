@@ -1,0 +1,13 @@
+# Made-up sample for checking the script runs. These are NOT real results.
+# Replace with a real labelled set before quoting any numbers (see README).
+url,label
+https://www.google.com/,0
+https://www.maybank2u.com.my/home/m2u/common/login.do,0
+https://www.unikl.edu.my/,0
+https://github.com/login,0
+https://en.wikipedia.org/wiki/Phishing,0
+http://192.168.10.5/maybank/login.php,1
+http://secure-login.verify-account.example.com/signin,1
+https://bit.ly/3fakeLink,1
+http://paypal.com@account-security.example/confirm,1
+http://update-password.mail.example.net/redirect//login,1
